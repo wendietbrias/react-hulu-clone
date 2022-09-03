@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --first-color: #66aa33;
+  --first-color-alt: #99cc33;
+  --first-color-secondary: #41811e;
+  --dark-color: #222222;
+  --grey-color: #666666;
+  --grey-color-alt: #e8e8e8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+
+/* Handle */
+
+/* Handle on hover */
+
+body {
+  background: linear-gradient(to right, #051421, #042727);
+  overflow-y: scroll;
+}
+
+.app {
+  min-height: 100vh;
+  overflow: hidden;
 }
